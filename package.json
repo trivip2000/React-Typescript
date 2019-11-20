@@ -19,7 +19,7 @@
     "start": "webpack-dev-server --mode development --hot --progress --color --port 3000 --open",
     "build": "webpack -p --progress --colors",
     "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\"",
-    "lint": "node ./node_modules/eslint/bin/eslint.js --fix --ext .tsx src/"
+    "lint": "node ./node_modules/eslint/bin/eslint.js --fix --ext .tsx,ts src/app"
   },
   "license": "MIT",
   "devDependencies": {

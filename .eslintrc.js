@@ -34,7 +34,7 @@ module.exports = {
     quotes: [1, 'double'],
     'react/jsx-uses-vars': 2,
     "semi": [2, "never"],
-    "no-multiple-empty-lines": [2, { "max": 0, "maxEOF": 1 }],
+    "no-multiple-empty-lines": [2, { "max": 1, "maxEOF": 2 }],
     "react/no-children-prop":"off",
     'react/jsx-boolean-value': 'error',
     'react/jsx-closing-bracket-location': 'error',
