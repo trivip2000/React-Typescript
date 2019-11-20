@@ -14,7 +14,7 @@ module.exports = {
       jsx: true
     }
   },
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   extends: ['eslint:recommended', 'plugin:react/recommended',"prettier"],
   rules: {
     "prettier/prettier": [
@@ -30,10 +30,12 @@ module.exports = {
     ],
     'react/prop-types': 0,
     "no-console": "off",
+    "no-redeclare":"off",
     quotes: [1, 'double'],
     'react/jsx-uses-vars': 2,
     "semi": [2, "never"],
     "no-multiple-empty-lines": [2, { "max": 0, "maxEOF": 1 }],
+    "react/no-children-prop":"off",
     'react/jsx-boolean-value': 'error',
     'react/jsx-closing-bracket-location': 'error',
     'react/jsx-equals-spacing': 'error',
