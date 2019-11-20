@@ -15,7 +15,7 @@ module.exports = {
     }
   },
   parser: '@typescript-eslint/parser',
-  extends: ['eslint:recommended', 'plugin:react/recommended',"prettier"],
+  extends: ["plugin:@typescript-eslint/recommended",'eslint:recommended', 'plugin:react/recommended',"prettier"],
   rules: {
     "prettier/prettier": [
       "error",
@@ -32,6 +32,11 @@ module.exports = {
     "no-console": "off",
     "no-redeclare":"off",
     quotes: [1, 'double'],
+    "@typescript-eslint/no-namespace":"off",
+    "@typescript-eslint/member-delimiter-style":"off",
+    "@typescript-eslint/no-explicit-any":"off",
+    "@typescript-eslint/explicit-function-return-type":"off",
+    "typescript-eslint/no-var-requires":"off",
     'react/jsx-uses-vars': 2,
     "semi": [2, "never"],
     "no-multiple-empty-lines": [2, { "max": 1, "maxEOF": 2 }],

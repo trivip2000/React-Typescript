@@ -1,6 +1,5 @@
 import { createAction } from "redux-actions"
 import { TodoModel } from "app/models"
-
 export namespace TodoActions {
   export enum Type {
     ADD_TODO = "ADD_TODO",

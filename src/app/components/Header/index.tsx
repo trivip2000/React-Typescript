@@ -1,4 +1,3 @@
-/* eslint-disable no-redeclare */
 import * as React from "react"
 import { TodoTextInput } from "../TodoTextInput"
 import { TodoActions } from "app/actions/todos"
