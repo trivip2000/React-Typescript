@@ -24,7 +24,8 @@ module.exports = {
         semicolons:false,
         semi:false,
         'react/jsx-max-props-per-line': [ 'error', { 'maximum': 3 }],
-        printWidth:150
+        printWidth:150,
+        endOfLine:"auto"
       }
     ],
     'react/prop-types': 0,
